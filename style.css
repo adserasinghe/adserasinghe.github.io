@@ -1100,7 +1100,7 @@ inner{
 	display: flex;
   }
   .wrapper .static-txt{
-	color: #000;
+	color: #bc4343;
 	font-size: 70px;
 	font-weight: 400;
   }
@@ -1112,7 +1112,7 @@ inner{
   }
   .dynamic-txts li{
 	list-style: none;
-	color: brown;
+	color: #000;
 	font-size: 70px;
 	font-weight: 500;
 	position: relative;
