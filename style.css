@@ -802,6 +802,7 @@ a#scroll-btn {
 	background-color:#29323c; /* Add a dark-grey background on hover */
 	color:black;/* Text Color*/
   }
+  /* cursor*/
 .cursor {
 	position: absolute;
 	height: 25px;
@@ -809,11 +810,12 @@ a#scroll-btn {
 	border-radius:50%;
 }
 .outer{
-	border: 1px solid #bc434320;
+	border: 1px solid #bc4343;
 }
-inner{
-	background: #bc434320;
+.inner{
+	background: #bc4343;
 }
+/* end of 
 /* skills bar*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
 
