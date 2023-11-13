@@ -39,8 +39,8 @@ p {
 	color:black;
 }
 .section-title {
-	font-size: 4rem;
-	font-weight: 300;
+	font-size: 8rem;
+	font-weight: 400;
 	color: black;
 	margin-bottom: 10px;
 	text-transform: uppercase;
@@ -413,7 +413,7 @@ p {
 #about .about {
 	flex-direction: column-reverse;
 	text-align: center;
-	max-width: 1200px;
+	max-width: 1300px;
 	margin: 0 auto;
 	padding: 100px 20px;
 }
@@ -1095,4 +1095,57 @@ inner{
 	}
   }
 /*works card list end*/
-
+/* typing text effect*/
+.wrapper{
+	display: flex;
+  }
+  .wrapper .static-txt{
+	color: #000;
+	font-size: 70px;
+	font-weight: 400;
+  }
+  .wrapper .dynamic-txts{
+	margin-left: 15px;
+	height: 90px;
+	line-height: 90px;
+	overflow: hidden;
+  }
+  .dynamic-txts li{
+	list-style: none;
+	color: brown;
+	font-size: 70px;
+	font-weight: 500;
+	position: relative;
+	
+	top: 0;
+	animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+	100%{
+	  top: -360px;
+	}
+  }
+  .dynamic-txts li span{
+	position: relative;
+	margin: 5px 0;
+	line-height: 90px;
+  }
+  .dynamic-txts li span::after{
+	content: "";
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #fff;
+	border-left: 2px solid brown;
+	animation: typing 3s steps(10) infinite;
+  }
+  @keyframes typing {
+	40%, 60%{
+	  left: calc(100% + 30px);
+	}
+	100%{
+	  left: 0;
+	}
+  }
+/* end of typing text effect*/
