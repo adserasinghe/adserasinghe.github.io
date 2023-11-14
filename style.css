@@ -1119,7 +1119,6 @@ a#scroll-btn {
 	font-size: 70px;
 	font-weight: 500;
 	position: relative;
-	
 	top: 0;
 	animation: slide 12s steps(4) infinite;
   }
@@ -1140,7 +1139,7 @@ a#scroll-btn {
 	height: 100%;
 	width: 100%;
 	background: #fff;
-	border-left: 2px solid brown;
+	border-left: 2px solid #000;
 	animation: typing 3s steps(10) infinite;
   }
   @keyframes typing {
