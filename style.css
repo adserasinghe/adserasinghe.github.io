@@ -1098,88 +1098,20 @@ a#scroll-btn {
   }
 /*works card list end*/
 /* typing text effect*/
-.wrapper{
+.textc {
 	display: flex;
+	align-items: center;
+	justify-content: center;
   }
-  .wrapper .static-txt{
+  
+  h1{
+	color: black;
+	font-size: 50px;
+  }
+  
+  span{
 	color: #bc4343;
-	font-size: 70px;
-	font-weight: 400;
   }
-  .wrapper .dynamic-txts{
-	margin-left: 15px;
-	height: 90px;
-	line-height: 90px;
-	overflow: hidden;p;p;
-	
-  }
-  .dynamic-txts li{
-	list-style: none;
-	color: #000;
-	font-size: 70px;
-	font-weight: 500;
-	position: relative;
-	top: 0;
-	animation: slide 12s steps(4) infinite;
-  }
-  @keyframes slide {
-	100%{
-	  top: -360px;
-	}
-  }
-  .dynamic-txts li span{
-	position: relative;
-	margin: 5px 0;
-	line-height: 90px;
-  }
-  .dynamic-txts li span::after{
-	content: "";
-	position: absolute;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background: #fff;
-	border-left: 2px solid #000;
-	animation: typing 3s steps(10) infinite;
-  }
-  @keyframes typing {
-	40%, 60%{
-	  left: calc(100% + 30px);
-	}
-	100%{
-	  left: 0;
-	}
-  }
-/* end of typing text effect*/
-/*Pre Loader*/
-#loader-wrapper .loader-section {
-    position: fixed;
-    top: 0;
-    width: 51%;
-    height: 100%;
-    background: #222222;
-    z-index: 1000;
-}
- 
-#loader-wrapper .loader-section.section-left {
-    left: 0;
-}
- 
-#loader-wrapper .loader-section.section-right {
-    right: 0;
-}
-#loader {
-    z-index: 1001; /* anything higher than z-index: 1000 of .loader-section */
-}
-h1 {
-    color: #EEEEEE;
-}
-#content {
-    margin: 0 auto;
-    padding-bottom: 50px;
-    width: 80%;
-    max-width: 978px;
-}
-/* Loaded */
+/* Loader */
 
 /* end of preloader*/
