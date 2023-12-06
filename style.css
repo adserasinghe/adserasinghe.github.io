@@ -1102,8 +1102,20 @@ a#scroll-btn {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
   }
-  
+  @keyframes typewriter {
+	0% { width:0 }
+	25% { width: 70% }
+	48% { width: 100% }
+	50% { width: 100% }
+	55% { width: 100% }
+	75% { width: 70%; }
+	85% { width: 30%; }
+	100% { width: 0; }
+  }
+
   h1{
 	color: black;
 	font-size: 50px;
@@ -1121,7 +1133,7 @@ a#scroll-btn {
 	width: 100%;
 	position: fixed;
 	justify-content: center;
-	z-index: 9999;
+	z-index: 1000;
 }
 #header #Preloader{
 	visibility: hidden;
