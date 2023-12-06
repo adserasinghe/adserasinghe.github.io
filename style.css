@@ -1102,8 +1102,6 @@ a#scroll-btn {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
   }
   @keyframes typewriter {
 	0% { width:0 }
