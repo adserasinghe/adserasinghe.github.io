@@ -22,6 +22,7 @@
 </head>
 
 <body>
+  <div id="Preloader"></div>
   <!-- Header -->
   <section id="header">
     <div class="header container">
@@ -427,6 +428,14 @@
     typeSpeed : 150,
     backSpeed : 150,
     looped : true
+  })
+</script>
+
+<script>
+  var loader=document.getElementById("Preloader");
+
+  window.addEventListener("load", function(){
+    loader.style.display ="none";
   })
 </script>
 </html>
