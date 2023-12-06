@@ -1133,7 +1133,7 @@ a#scroll-btn {
 	width: 100%;
 	position: fixed;
 	justify-content: center;
-	z-index: 1000;
+	z-index: 9999;
 }
 #header #Preloader{
 	visibility: hidden;
