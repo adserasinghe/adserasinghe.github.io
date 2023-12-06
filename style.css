@@ -1115,6 +1115,7 @@ a#scroll-btn {
 /* Loader */
 #Preloader{
 	background: #000 url(pl.gif) no-repeat center center;
+	background-size: 150px;
 	height: 100vh;
 	width: 100%;
 	position: fixed;
