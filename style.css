@@ -1124,7 +1124,7 @@ a#scroll-btn {
   span{
 	color: #bc4343;
   }
-/* Loader */
+/* preLoader */
 #Preloader{
 	background: #000 url(pi.gif) no-repeat center center;
 	background-size: 150px;
