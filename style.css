@@ -1103,16 +1103,7 @@ a#scroll-btn {
 	align-items: center;
 	justify-content: center;
   }
-  @keyframes typewriter {
-	0% { width:0 }
-	25% { width: 70% }
-	48% { width: 100% }
-	50% { width: 100% }
-	55% { width: 100% }
-	75% { width: 70%; }
-	85% { width: 30%; }
-	100% { width: 0; }
-  }
+  
 
   h1{
 	color: black;
