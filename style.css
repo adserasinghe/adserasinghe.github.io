@@ -1115,7 +1115,7 @@ a#scroll-btn {
   }
 /* preLoader */
 #Preloader{
-	background: #000 url(pi.gif) no-repeat center center;
+	background: rgb(31, 30, 30) url(pi.gif) no-repeat center center;
 	background-size: 150px;
 	display: flex;
 	height: 100vh;
