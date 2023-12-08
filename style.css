@@ -1124,14 +1124,7 @@ a#scroll-btn {
     border-left: 2px solid #4070F4;
     animation: animate 4s steps(12) infinite;
 }
-@keyframes animate{
-    40%, 60%{
-        left: calc(100% + 4px);
-    }
-    100%{
-        left: 0%;
-    }
-}
+
 /* preLoader */
 #Preloader{
 	background: rgb(31, 30, 30) url(pi.gif) no-repeat center center;
