@@ -422,13 +422,21 @@
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 <script>
-  var typed = new Typed(".auto-type",{
-    strings : ["Programmer", "YouTuber", "Designer"],
-    typeSpeed : 150,
-    backSpeed : 150,
-    looped : true
-  })
-</script>
+  const text = document.querySelector(".auto-type");
+  const textLoad = () => {
+      setTimeout(() => {
+          text.textContent = "Developer";
+      }, 0);
+      setTimeout(() => {
+          text.textContent = "Designer";
+      }, 4000);
+      setTimeout(() => {
+          text.textContent = "YouTuber";
+      }, 8000); //1s = 1000 milliseconds
+  }
+  textLoad();
+  setInterval(textLoad, 12000);
+</script>    
 
 <script>
   var loader=document.getElementById("Preloader");
