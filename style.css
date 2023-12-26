@@ -246,7 +246,7 @@ p {
 #home h1 {
 	display: block;
 	width: fit-content;
-	font-size: 7rem;
+	font-size: 5rem;
 	position: relative;
 	color: transparent;
 	animation: text_reveal 0.5s ease forwards;
@@ -1159,7 +1159,7 @@ a#scroll-btn {
     height: 600px;
     size: 200%;
     position:absolute;
-    left: 19%;
+    left: 15%;
     top:10%;
     animation: fadeInFormTop .2s linear forwards, floating ease 45s infinite;
 }
@@ -1168,8 +1168,8 @@ a#scroll-btn {
     height: 110px;
     size: 100%;
     position:absolute;
-    left: 32%;
-    top: 15%;
+    left: 25%;
+    top: 25%;
     animation: fadeInFormTop .1s linear forwards, floating ease 45s infinite;
 }
 @keyframes fadeInFormTop{
