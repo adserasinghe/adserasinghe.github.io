@@ -246,7 +246,7 @@ p {
 #home h1 {
 	display: block;
 	width: fit-content;
-	font-size: 5rem;
+	font-size: 4rem;
 	position: relative;
 	color: transparent;
 	animation: text_reveal 0.5s ease forwards;
@@ -1160,7 +1160,7 @@ a#scroll-btn {
     height: 180px;
     size: 100%;
     position:absolute;
-    left: 40%;
+    left: 50%;
     top:30%;
     animation: fadeInFormTop .2s linear forwards, floating ease 45s infinite;
 }
@@ -1169,9 +1169,18 @@ a#scroll-btn {
     height: 90px;
     size: 100%;
     position:absolute;
-    left: 40%;
+    left: 10%;
     top: 25%;
-    animation: fadeInFormDown .1s linear forwards, floatingback ease 45s infinite;
+    animation: fadeInFormDown .2s linear forwards, floatingback ease 45s infinite;
+}
+.space-iteam2 img{
+	width: 100px;
+    height: 90px;
+    size: 100%;
+    position:absolute;
+    left: 30%;
+    top: 60%;
+    animation: fadeInFormDown .2s linear forwards, floatingback ease 45s infinite;
 }
 @keyframes fadeInFormTop{
     from{
