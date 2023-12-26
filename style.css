@@ -1147,28 +1147,29 @@ a#scroll-btn {
 	width: 100%;
 	position: fixed;
 	justify-content: center;
+	position: flex;
 	z-index: 9999;
 }
 #header #Preloader{
 	visibility: hidden;
 }
 /* end of preloader*/
-/*floating photo Effect */
+/*floating photo Effect*/
 .space img{
-    width: 600px;
-    height: 600px;
-    size: 200%;
-    position:absolute;
-    left: 15%;
-    top:10%;
-    animation: fadeInFormTop .2s linear forwards, floating ease 45s infinite;
-}
-.space-logo img{
-    width: 100px;
-    height: 110px;
+    width: 180px;
+    height: 180px;
     size: 100%;
     position:absolute;
-    left: 25%;
+    left: 45%;
+    top:30%;
+    animation: fadeInFormTop .2s linear forwards, floating ease 45s infinite;
+}
+.space-iteam img{
+	width: 110px;
+    height: 90px;
+    size: 100%;
+    position:absolute;
+    left: 45%;
     top: 25%;
     animation: fadeInFormTop .1s linear forwards, floating ease 45s infinite;
 }
