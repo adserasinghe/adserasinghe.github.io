@@ -222,6 +222,7 @@ p {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
+	display: flex;
 	position: relative;
 	z-index: 1;
 }
