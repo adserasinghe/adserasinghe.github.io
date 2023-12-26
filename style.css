@@ -728,8 +728,8 @@ p {
 }
 /* End  Media Query For Desktop */
 .brand img{
-	height: 80px;
-	width: 90px;
+	height: 45px;
+	width: 255px;
 	object-fit: cover;
 }
 a#scroll-btn {
