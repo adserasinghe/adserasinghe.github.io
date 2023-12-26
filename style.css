@@ -33,25 +33,14 @@ p {
 	font-weight: 300;
 	letter-spacing: 0;
 	text-align: justify;
-	animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
 }
 .services p{
 	text-align: center;
 	color:black;
 }
 .section-title {
-	font-size: 5rem;
-	font-weight: 300;
+	font-size: 8rem;
+	font-weight: 400;
 	color: black;
 	margin-bottom: 10px;
 	text-transform: uppercase;
@@ -220,9 +209,7 @@ p {
 #home {
 	background-image: url(bg.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
 	background-position: top center;
-	display: flex;
 	position: relative;
 	z-index: 1;
 }
@@ -246,7 +233,7 @@ p {
 #home h1 {
 	display: block;
 	width: fit-content;
-	font-size: 5rem;
+	font-size: 7rem;
 	position: relative;
 	color: transparent;
 	animation: text_reveal 0.5s ease forwards;
@@ -815,7 +802,6 @@ a#scroll-btn {
 	background-color:#29323c; /* Add a dark-grey background on hover */
 	color:black;/* Text Color*/
   }
-  /* cursor*/
 .cursor {
 	position: absolute;
 	height: 25px;
@@ -823,12 +809,11 @@ a#scroll-btn {
 	border-radius:50%;
 }
 .outer{
-	border: 1px solid #bc4343;
+	border: 1px solid #bc434320;
 }
-.inner{
-	background: #bc4343;
+inner{
+	background: #bc434320;
 }
-/* end of cursor*/
 /* skills bar*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
 
@@ -1171,7 +1156,7 @@ a#scroll-btn {
     position:absolute;
     left: 42%;
     top: 25%;
-    animation: fadeInFormDown .1s linear forwards, floatingback ease 45s infinite;
+    animation: fadeInForm .1s linear forwards, floating ease 45s infinite;
 }
 @keyframes fadeInFormTop{
     from{
@@ -1200,7 +1185,7 @@ a#scroll-btn {
         transform: translate(0%,0%) rotate(360deg);
     }
 }
-@keyframes fadeInFormDown{
+@keyframes fadeInForm{
     from{
         opacity: 0;
         transform: translateY(20px);
@@ -1210,7 +1195,7 @@ a#scroll-btn {
         transform: translateY(0);
     }
 }
-@keyframes floatingback{
+@keyframes floating{
     0%{
         transform: translate(0%,0%) rotate(360deg);
     }
