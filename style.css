@@ -1163,8 +1163,8 @@ a#scroll-btn {
     animation: fadeInFormTop .2s linear forwards, floating ease 45s infinite;
 }
 .space-logo img{
-    width: 110px;
-    height: 120px;
+    width: 100px;
+    height: 110px;
     size: 100%;
     position:absolute;
     left: 32%;
