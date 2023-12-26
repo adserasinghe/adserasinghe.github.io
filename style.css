@@ -1162,7 +1162,7 @@ a#scroll-btn {
     position:absolute;
     left: 50%;
     top:30%;
-    animation: fadeInFormTop .2s linear forwards, floating ease 45s infinite;
+    animation: fadeInFormTop .1s linear forwards, floating ease 50s infinite;
 }
 .space-iteam img{
 	width: 100px;
@@ -1171,7 +1171,7 @@ a#scroll-btn {
     position:absolute;
     left: 10%;
     top: 25%;
-    animation: fadeInFormDown .2s linear forwards, floatingback ease 45s infinite;
+    animation: fadeInFormDown .1s linear forwards, floatingback ease 50s infinite;
 }
 .space-iteam2 img{
 	width: 100px;
@@ -1180,7 +1180,7 @@ a#scroll-btn {
     position:absolute;
     left: 30%;
     top: 60%;
-    animation: fadeInFormDown .2s linear forwards, floatingback ease 45s infinite;
+    animation: fadeInFormDown .1s linear forwards, floatingback ease 50s infinite;
 }
 @keyframes fadeInFormTop{
     from{
