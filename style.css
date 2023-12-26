@@ -1156,20 +1156,20 @@ a#scroll-btn {
 /* end of preloader*/
 /*floating photo Effect*/
 .space img{
-    width: 205px;
-    height: 205px;
+    width: 180px;
+    height: 180px;
     size: 100%;
     position:absolute;
-    left: 41%;
+    left: 40%;
     top:30%;
     animation: fadeInFormTop .2s linear forwards, floating ease 45s infinite;
 }
 .space-iteam img{
-	width: 110px;
+	width: 100px;
     height: 90px;
     size: 100%;
     position:absolute;
-    left: 42%;
+    left: 40%;
     top: 25%;
     animation: fadeInFormDown .1s linear forwards, floatingback ease 45s infinite;
 }
