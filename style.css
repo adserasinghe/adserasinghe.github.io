@@ -1156,13 +1156,13 @@ a#scroll-btn {
 /* end of preloader*/
 /*floating photo Effect*/
 .space img{
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     size: 100%;
     position:absolute;
-    left: 50%;
+    left: 40%;
     top:30%;
-    animation: fadeInFormTop .1s linear forwards, floatingback ease 25s infinite;
+    animation: fadeInFormTop .1s linear forwards, floatingback ease 20s infinite;
 }
 .space-iteam img{
 	width: 100px;
@@ -1180,7 +1180,7 @@ a#scroll-btn {
     position:absolute;
     left: 30%;
     top: 60%;
-    animation: fadeInFormDown .1s linear forwards, floatingbackii ease 30s infinite;
+    animation: fadeInFormDown .1s linear forwards, floatingbackii ease 20s infinite;
 }
 .space-iteam3 img{
 	width: 100px;
@@ -1189,7 +1189,7 @@ a#scroll-btn {
     position:absolute;
     left: 40%;
     top: 10%;
-    animation: fadeInFormn .1s linear forwards, floatingbackiii ease 30s infinite;
+    animation: fadeInFormn .1s linear forwards, floatingbackiii ease 25s infinite;
 }
 @keyframes fadeInFormTop{
     from{
