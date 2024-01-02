@@ -765,7 +765,7 @@ p {
   
   @keyframes scroll-down {
 	0% {
-	  /* top:20%; */
+	  top:20%;
 	  opacity: 0;
 	}
 	30% {
