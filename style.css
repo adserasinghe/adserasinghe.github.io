@@ -1307,3 +1307,28 @@ a#scroll-btn {
     }
 }
 /* ending of floating Photo Effect*/
+/*scroll bar*/
+  .sub-div {
+	max-height: 100vh;
+	overflow-y: scroll;
+	/*Thumb color and background color for firefox */
+	scrollbar-color: brown #010718;
+	overflow-x: none;
+  }
+  /*  ::-webkit- is for chrome */
+  ::-webkit-scrollbar {
+	width: 1.2em;
+	overflow-x: none;
+  }
+  ::-webkit-scrollbar-track {
+	background-color: #010718;
+	margin-block: 0.25em;
+	border-radius: 0.3em;
+  }
+  ::-webkit-scrollbar-thumb {
+	background: brown;
+	background: -webkit-linear-gradient(to right, brown, brown);
+	background: linear-gradient(to right, brown, brown);
+	border-radius: 0.3em;
+  }
+/*end of scroll bar*/
