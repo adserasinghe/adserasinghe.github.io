@@ -749,8 +749,8 @@ p {
 	position: absolute;
 	top: 40%;
 	left: 49%;
-	height: 9px;
-	width: 9px;
+	height: 8px;
+	width: 8px;
 	transform: translate(-50%, -100%) rotate(45deg);
 	border: 2px solid white;
 	border-top: transparent;
