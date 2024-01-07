@@ -37,13 +37,13 @@
           <div class="hamburger">
             <div class="bar"></div>
           </div>
-          <ul>
-            <li><a href="#home" data-after="Home"><i class="material-icons">home</i> Home</a></li>
-            <li><a href="#services" data-after="Service"><i class="material-icons">storefront</i> services</a></li>
-            <li><a href="#projects" data-after="Projects"><i class="material-icons">construction</i> Projects</a></li>
-            <li><a href="#Portfolio" data-after="works"><i class="material-icons">check_circle</i> Portfolio</a></li>
-            <li><a href="#about" data-after="About"><i class="material-icons">face</i> About</a></li>
-            <li><a href="#contact" data-after="Contact"><i class="material-icons">person</i> Contact</a></li>
+          <ul class="menu">
+            <li><a href="#home" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">services</a></li>
+            <!--<li><a href="#projects" data-after="Projects">Projects</a></li>-->
+            <li><a href="#Portfolio" data-after="Portfolio">Portfolio</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -79,18 +79,12 @@
         </a>
         </section>
     </div>
-    
   </section>
   <!-- End Home Section  -->
-
   <!-- Service Section -->
   <section id="services">
     <div class="services container">
       <div class="service-top">
-        <br>
-        <br>
-        <br>
-        <br>
         <h1 class="section-title"><span>S</span>ervices</h1>
         <p>When you use my services, I will assist you in discovering a wide variety of options. I'm dedicated to offering a range of services that cater to your needs.
           I'm here to help you achieve your goals. !</p>
@@ -121,62 +115,76 @@
     </div>
   </section>
   <!-- End Service Section -->
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title"><span>O</span>ur <span>p</span>rojects</h1>
-      </div>
-      <div class="all-projects">
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Graphic Design Projects</h1>
-            <p>To the creative realm, where ideas are transformed into captivating visual narratives. As a dedicated graphic designer, my mission is to breathe life into your concepts and make them visually unforgettable</p>
-          </div>
-          <div class="project-img">
-            <img src="gd.jpg" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Front End Design Project</h1>
-            <p>  To the forefront of your digital journey. I'm a dedicated front-end developer and designer, and my passion is creating visually stunning and intuitive user interfaces. In the world of web development, the front end is where the magic of user engagement happens.</p>
-          </div>
-          <div class="project-img">
-            <img src="fd.jpg" alt="Frontend">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Back End Design Projects</h1>
-            <p>Backend is the backbone of your digital presence. I'm a seasoned back-end developer specialising in architecting the robust infrastructure that powers your website. While the front end captures your users' attention, it's the back end where the magic happens.</p>
-          </div>
-          <div class="project-img">
-            <img src="be.jpg" alt="Backend">
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Projects Section -->
-  
   <!--works Section-->
-<section id="Portfolio">
-  <br><br><br><br><br><br><br><br><br><br>
-  <h1 class="section-title"><span>P</span>ortfolio</h1>
-  <div class="slider-wrapper">
-  <br><br><br><br>
-  <ul class="image-list">
-    <br>
-    <img class="image-item" src="ai art.png" alt="ai"/>
-    <a href="https://github.com/adserasinghe/Hardware-Lab-system"><img class="image-item" src="home page.png" alt="Hardware Project"/></a>
-    <img class="image-item" src="poster.png" alt="Poster" />
-    <img class="image-item" src="Register page.png" alt="Register Page"/>
-  </ul>
-</div>
-</section>
+  <section id="Portfolio"> 
+<div class="portfolio_all_card">
+<h1 class="section-title"><span>P</span>ortfolio</h1>
+                <!-- card one  -->
+                <div class="portfolio_card">
+                    <img src="poster.png" alt="">
+                    <div class="portfolio_card_info">
+                        <h2>poster</h2>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae velit, est vero fugit
+                            sunt laborum?</p>
+                        <a href="#" class="button">see more</a>-->
+                    </div>
+                </div>
+                <!-- card two  -->
+                <div class="portfolio_card">
+                    <img src="ai art.png" alt="">
+                    <div class="portfolio_card_info">
+                        <h2>Ai art 1.0</h2>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae velit, est vero fugit
+                            sunt laborum?</p>
+                        <a href="#" class="button">see more</a>-->
+                    </div>
+                </div>
+                <!-- card three  -->
+                <div class="portfolio_card">
+                    <img src="home page.png" alt="">
+                    <div class="portfolio_card_info">
+                        <h2>Hardware Lab project</h2>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae velit, est vero fugit
+                            sunt laborum?</p>
+                        <a href="#" class="button">see more</a>-->
+                    </div>
+                </div>
+                <!-- card four  -->
+                <div class="portfolio_card">
+                    <img src="Register page.png" alt="">
+                    <div class="portfolio_card_info">
+                        <h2>Registration page</h2>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae velit, est vero fugit
+                            sunt laborum?</p>
+                        <a href="#" class="button">see more</a>-->
+                    </div>
+                </div>
+                <!-- card five  -->
+                <div class="portfolio_card">
+                    <img src="ai 2png.png" alt="">
+                    <div class="portfolio_card_info">
+                        <h2>Art 2.0</h2>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae velit, est vero fugit
+                            sunt laborum?</p>
+                        <a href="#" class="button">see more</a>-->
+                    </div>
+                </div>
+                <!-- card six  -->
+                <!----<div class="portfolio_card">
+                    <img src="image/p5.PNG" alt="">
+                    <div class="portfolio_card_info">
+                        <h2>Amazon Scrapper</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae velit, est vero fugit
+                            sunt laborum?</p>
+                        <a href="#" class="button">see more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="more_button">
+                <a href="#" class="more_btn">View More</a>
+            </div>-->
+        </section>
+        <!-- portfolio section end  -->
 <!--End of works Section-->
 
   <!-- About Section -->
