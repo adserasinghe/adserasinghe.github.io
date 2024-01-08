@@ -77,6 +77,9 @@ p {
 	color: white;
 	background-color: brown;
 }
+.cta:hover h5{
+	color: white;
+}
 .brand h1 {
 	font-size: 3rem;
 	/*text-transform: uppercase;*/
@@ -874,6 +877,9 @@ p {
   #myBtn:hover {
 	background-color:#29323c; /* Add a dark-grey background on hover */
 	color:black;/* Text Color*/
+  }
+  #myBtn:hover h4{
+	color: white;
   }
   /* cursor*/
 .cursor {
