@@ -285,7 +285,6 @@ p {
 #home h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
-
 /* End Home Section */
 
 /* Services Section */
@@ -695,6 +694,7 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
+	
 	/* End contact  */
 }
 /*portfolio*/
