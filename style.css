@@ -867,8 +867,8 @@ p {
   #myBtn {
 	display: none; /* Hidden by default */
 	position: fixed; /* Fixed/sticky position */
-	bottom: 179px; /* Place the button at the bottom of the page */
-	right: 6px; /* Place the button 30px from the right */
+	bottom: 111px; /* Place the button at the bottom of the page */
+	right: 20px; /* Place the button 30px from the right */
 	z-index: 100; /* Make sure it does not overlap */
 	border: none; /* Remove borders */
 	outline: none; /* Remove outline */
@@ -902,6 +902,7 @@ p {
 }
 /* end of cursor*/
 /* skills bar*/
+/*
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
 
 .skills_section{
@@ -1069,7 +1070,7 @@ p {
 	} 100%{
 		width:55%;
 	}
-}
+}*/
 /* skills bar close */
 
 /*works card list */
