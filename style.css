@@ -80,6 +80,26 @@ p {
 .cta:hover h5{
 	color: white;
 }
+.cta2 {
+	display: inline-block;
+	padding: 5px 20px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid brown;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+.cta2:hover {
+	color: white;
+	background-color: brown;
+}
+.cta2:hover h4{
+	color: black;
+}
 .brand h1 {
 	font-size: 3rem;
 	/*text-transform: uppercase;*/
