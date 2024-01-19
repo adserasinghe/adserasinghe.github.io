@@ -3,7 +3,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	cursor: none;
+	/*cursor: none;*/
 }
 html {
 	font-size: 8px;
@@ -887,8 +887,8 @@ p {
   #myBtn:hover h4{
 	color: white;
   }
-  /* cursor*/
-.cursor {
+/* cursor*/
+/*.cursor {
 	position: absolute;
 	height: 25px;
 	width: 25px;
@@ -899,7 +899,7 @@ p {
 }
 .inner{
 	background: #bc4343;
-}
+}*/
 /* end of cursor*/
 /* skills bar*/
 /*
@@ -1447,4 +1447,8 @@ p {
     text-decoration: none;
     padding: 5px 0;
 }
+.popup img{
+	max-width: 60%;
+	display: inline-block;
+	}
 /*end of popup card*/
