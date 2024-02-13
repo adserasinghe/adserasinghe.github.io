@@ -1241,7 +1241,7 @@ p {
 	position: fixed;
 	justify-content: center;
 	position: flex;
-	z-index: 9999;
+	z-index: 1000;
 }
 #header #Preloader{
 	visibility: hidden;
