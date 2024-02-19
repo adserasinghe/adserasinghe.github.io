@@ -1254,7 +1254,7 @@ p {
     size: 100%;
     position:absolute;
     left: 43%;
-    top:30%;
+    top: 21%;
     animation: fadeInFormTop .1s linear forwards, floatingback ease 20s infinite;
 }
 .space-iteam img{
@@ -1263,7 +1263,7 @@ p {
     size: 100%;
     position:absolute;
     left: 10%;
-    top: 25%;
+    top: 20%;
     animation: fadeInFormTop .1s linear forwards, floatingbacki ease 15s infinite;
 }
 .space-iteam2 img{
