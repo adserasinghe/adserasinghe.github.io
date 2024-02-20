@@ -1246,6 +1246,9 @@ p {
 #header #Preloader{
 	visibility: hidden;
 }
+.float-button .float-button-text #Preloader{
+	visibility: hidden;
+}
 /* end of preloader*/
 /*floating photo Effect*/
 .space img{
@@ -1529,9 +1532,9 @@ p {
 	  background-color:#ffffff;
 	  color:brown;
 	  border-radius:50px;
-	border: 3px solid brown;
+	border: 7px solid brown;
 	  text-align:center;
-	  box-shadow: 2px 2px 3px #999;
+	  box-shadow: 2px 2px 3px #978282;
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 22px;
@@ -1548,8 +1551,9 @@ p {
   }
   .float-button :hover{
 	color: #000;
+	
   }
   .float-button-text :hover{
 	color: #ffffff;
   }
-  /*End of donate*/
+  /*End of donate button*/
