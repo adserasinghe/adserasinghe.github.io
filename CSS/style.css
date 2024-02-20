@@ -1246,7 +1246,10 @@ p {
 #header #Preloader{
 	visibility: hidden;
 }
-.float-button .float-button-text #Preloader{
+.float-button #Preloader{
+	visibility: hidden;
+}
+.float-button-text #Preloader{
 	visibility: hidden;
 }
 /* end of preloader*/
