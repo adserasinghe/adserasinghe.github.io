@@ -1580,7 +1580,7 @@ p {
 
 /*popup card*/
 .popup{
-    background-color: #ffffff;
+    background: url(../img/Cover\ 2.0.png);
     width: 450px;
     padding: 30px 40px;
     position: absolute;
@@ -1602,11 +1602,20 @@ p {
     outline: none;
     cursor: pointer;
 }
+.popup button:hover{
+	color: #ED904C;
+}
 .popup p{
-    font-size: 14px;
+    font-size: 60px;
     text-align: justify;
     margin: 20px 0;
     line-height: 25px;
+}
+.popup h2{
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	line-height: 75px;
 }
 .popup a{
     display: block;
@@ -1614,15 +1623,15 @@ p {
     position: relative;
     margin: 10px auto;
     text-align: center;
-    background-color: #0f72e5;
-    color: #ffffff;
+    background-color: white;
+    color: black;
     text-decoration: none;
     padding: 5px 0;
 }
-.popup img{
-	max-width: 60%;
-	display: inline-block;
-	}
+.popup a:hover{
+	color: white;
+	background-color: black;
+}
 /*end of popup card*/
 #footer a{
 	color: #ff7b00;
