@@ -1618,7 +1618,7 @@ p {
 }
 .popup h2{
 	font-size: 45px;
-	color: rgb(161, 151, 126);
+	color: rgb(255, 255, 255);
 	text-align: center;
 	line-height: 75px;
 }
@@ -1700,7 +1700,7 @@ p {
 	  border-radius:50px;
 	border: 7px solid brown;
 	  text-align:center;
-	  box-shadow: 2px 2px 3px #978282;
+	  box-shadow: 2px 2px 3px #ffffff;
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 22px;
