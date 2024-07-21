@@ -96,6 +96,7 @@ p {
 	margin-top: 30px;
 	transition: 0.3s ease;
 	transition-property: background-color, color;
+	font-family: Disengaged;
 }
 .cta2:hover {
 	color: white;
@@ -103,6 +104,7 @@ p {
 }
 .cta2:hover h4{
 	color: black;
+	font-family: Disengaged;
 }
 .brand h1 {
 	font-size: 3rem;
@@ -272,6 +274,7 @@ p {
 	display: block;
 	width: fit-content;
 	font-size: 3.9rem;
+	font-family: Disengaged;
 	position: relative;
 	color: transparent;
 	animation: text_reveal 0.5s ease forwards;
