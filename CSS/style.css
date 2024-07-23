@@ -88,7 +88,7 @@ p {
 	font-family: 'Disengaged Regular';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Disengaged Regular'), url('DisengagedTTF.woff') format('woff');
+	src: local('Disengaged Regular'), url('DisengagedTTF.otf') format('otf');
 	}
 .cta2 {
 	display: inline-block;
