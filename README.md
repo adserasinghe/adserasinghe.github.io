@@ -1,4 +1,3 @@
-<img src="https://ghc.clait.sh/repo/adserasinghe/adserasinghe.github.io?bg_color=8a3d3d&title_color=ffffff&text_color=ffffff&icon_color=ffffff&show_user=false" alt="GitHub Repo Card">
 new releases...
 V:1.1.7.5
 * bug fixed
