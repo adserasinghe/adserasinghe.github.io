@@ -106,7 +106,7 @@ p {
 	color: black;
 }
 .brand h1 {
-	font-size: 3rem;
+	font-size: 4rem;
 	/*text-transform: uppercase;*/
 	color: white;
 	text-align: center;
@@ -115,6 +115,20 @@ p {
 	color:rgb(188, 67, 67);
 }
 
+#footer .brand h2{
+	font-size: 3.5rem;
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+#footer .brand h3{
+	font-size: 2.5rem;
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
 /* Header section */
 #header {
 	position: fixed;
@@ -574,14 +588,14 @@ p {
 	width: 25px;
 	margin: 0 5px;
 }
-#footer .social-item img {
+/*#footer .social-item img {
 	filter: grayscale(1);
 	transition: 0.3s ease filter;
 	
 }
 #footer .social-item:hover img {
 	filter: grayscale(0);
-}
+}*/
 #footer p {
 	color: white;
 	/*font-size: 1.3rem;*/
