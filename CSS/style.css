@@ -606,6 +606,11 @@ p {
 	position: relative;
 	border: 10px solid white;
 }
+#about a{
+	color: #29323c;
+    text-decoration: none;
+    transition: 0.3s ease color;
+}
 #about .col-left .about-img::after {
 	content: '';
 	position: absolute;
