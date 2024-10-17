@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sponsorship Opportunities</title>
+    <title>Sponsorship</title>
     <link rel="icon" type="images/x-icon" href="./img/lgtt.png">
     <link rel="stylesheet" href="./CSS/sponsors.css">
 </head>
@@ -33,7 +33,7 @@
                 <a href="https://github.com/sponsors/adserasinghe" class="sponsor-btn">Become a Sponsor</a>
             </div>
         </div></center>
-
+        <div onmouseenter="mouseenter()" onmouseleave="mouseleave()" class="caja">
        <!--<div class="current-sponsors">
             <h2>Our Current Sponsors</h2>
             <div class="sponsors-grid">
@@ -52,21 +52,65 @@
             </div>
         </div>
     </div>--->
-
+ <!--Top Button-->
+ <div id="progress">
+    <span id="progress-value">&#11014;</span>
+  </div>
+  <!--Top Button End-->
     <div class="contact-section">
         <h2>Interested in Sponsorship?</h2>
         <div class="contact-info">
             <div class="contact-item">
                 <i class="fa fa-envelope"></i>
-                <span>svadithadinujaserasinghe@gmail.com</span>
+                <a href = "mailto:svadithadinujaserasinghe@gmail.com "><span>svadithadinujaserasinghe@gmail.com</span></a>
             </div>
             <div class="contact-item">
                 <i class="fa fa-phone"></i>
-                <span>+94718896042</span>
-                <span> +94771236042</span>
+                <a target="_blank" rel="noopener" href="tel:+94718896042"><span>+94718896042</span></a>
             </div>
         </div>
+        <p>&copy by <a class="yearJS"></a><b> Aditha Dinuja Serasinghe (V:1.1.7.7)</b> All rights reserved. This Website hosted  <b>&#10084;</b> With github Pages</p>
+    </div>
     </div>
 </body>
+<!---Mouse Coursor Script--->
+<script>
+    var kursorx = new kursor({
+      type: 2,
+      color: 'rgba(118,67,67)',
+    })
+  
+  
+    function mouseenter () {
+      kursorx.hidden()
+    }
+    function mouseleave () {
+      kursorx.hidden(false)
+    }
+    function clickx() {
+      kursorx.color('rgba(100,0,100)')
+      kursorx.hidden()
+    }
+    function clickx2() {
+      kursorx.color('rgba(100,0,100)')
+      kursorx.hidden(false)
+    }
+    function clickx(){
+      kursor2.color('rgb(0,0,0)')
+      kursor2.hidden(false)
+    }
+    function clickx2(){
+      kursor2.color('rgb(0,0,0)')
+      kursor2.hidden()
+    }
+    var kursor2 = new kursor({
+      el: '.caja',
+      color: 'rgba(128,0,0)',
+      type: 2,
+    })
+  </script>
+<!---End of Mouse Coursor Script--->
+<script src="./JS/app.js"></script>
+<script src="./JS/kursor.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 </html>

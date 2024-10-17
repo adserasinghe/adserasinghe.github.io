@@ -484,9 +484,9 @@
         <!--<div class="social-item">
           <a target="_blank" rel="noopener" href="https://mastodon.social/@adserasinghe"><img width="32" height="32" src="https://img.icons8.com/windows/32/000000/mastodon.png" alt="mastodon"/></a>
         </div>-->
-        <div class="social-item">
+        <!--<div class="social-item">
           <a target="_blank" rel="noopener" href="https://maps.app.goo.gl/cc9MDMPrujw2kWzq6?g_st=aw"><img width="48" height="48" src="https://img.icons8.com/color/48/marker--v1.png" alt="marker--v1"/></a>
-        </div>
+        </div>-->
         <!--<div class="social-item">
           <a target="_blank" rel="noopener" href="https://codepen.io/adserasinghe"><img width="50" height="50" src="https://img.icons8.com/ios/50/codepen.png" alt="codepen"/></a>
         </div>-->
@@ -579,29 +579,6 @@
   })
 </script>
 <!--End of pre loader script-->
-<!--Page visit counter-->
-<script>
- const counterEl = document.getElementById('counter');
-const resetBtn = document.getElementById('reset');
-
-let visitCount = localStorage.getItem('page_view') || 0;
-visitCount = parseInt(visitCount, 10);
-
-counterEl.textContent = visitCount;
-
-window.addEventListener('load', () => {
-  visitCount++;
-  localStorage.setItem('page_view', visitCount);
-  counterEl.textContent = visitCount;
-});
-
-resetBtn.addEventListener('click', () => {
-  visitCount = 1;
-  localStorage.setItem('page_view', visitCount);
-  counterEl.textContent = visitCount;
-});
-</script>
-<!--End of visit counter-->
 <!--review script-->
 <!--<script src="./JS/review.js"></script>
 end of review script-->
