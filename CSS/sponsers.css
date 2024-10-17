@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/sponser.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+    /*padding: 2rem;*/
+}
+
+.intro {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.intro p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+.sponsorship-tiers {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.tier {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.tier:hover {
+    transform: translateY(-5px);
+}
+
+.tier-header {
+    margin-bottom: 1.5rem;
+}
+
+.tier-name {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.tier-price {
+    font-size: 2rem;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.tier-benefits {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.tier-benefits li {
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.tier-benefits li:before {
+    content: "\f00c";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #27ae60;
+    position: absolute;
+    left: 0;
+}
+
+.sponsor-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sponsor-btn:hover {
+    background-color: #2980b9;
+}
+
+.current-sponsors {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.sponsor-logo {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.sponsor-logo img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.contact-section {
+    background-color: #2c3e50;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.contact-section h2 {
+    margin-bottom: 1.5rem;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .tier {
+        margin-bottom: 1rem;
+    }
+}
