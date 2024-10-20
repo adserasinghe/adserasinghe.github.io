@@ -20,7 +20,7 @@ body {
 
 h1 {
     font-size: 10rem;
-    color: #FF6B6B;
+    color: brown;
 }
 
 h2 {
@@ -38,7 +38,7 @@ p {
 .home-button {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #FF6B6B;
+    background-color: brown;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -46,7 +46,7 @@ p {
 }
 
 .home-button:hover {
-    background-color: #FF3B3B;
+    background-color: brown;
 }
 
 @media (max-width: 768px) {
