@@ -1,58 +1,68 @@
-const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
-const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
-const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
-const header = document.querySelector('.header.container');
-
-hamburger.addEventListener('click', () => {
-	hamburger.classList.toggle('active');
-	mobile_menu.classList.toggle('active');
+// Loader
+window.addEventListener('load', () => {
+    const loader = document.querySelector('.loader');
+    loader.classList.add('fade-out');
 });
 
-document.addEventListener('scroll', () => {
-	var scroll_position = window.scrollY;
-	if (scroll_position > 250) {
-		header.style.backgroundColor = '#29323c';
-	} else {
-		header.style.backgroundColor = 'transparent';
-	}
+// Theme Toggle
+const themeToggle = document.querySelector('.theme-toggle');
+themeToggle.addEventListener('click', () => {
+    document.body.dataset.theme = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
+    themeToggle.textContent = document.body.dataset.theme === 'dark' ? '𖤓' : '☾';
 });
 
-menu_item.forEach((item) => {
-	item.addEventListener('click', () => {
-		hamburger.classList.toggle('active');
-		mobile_menu.classList.toggle('active');
-	});
-});
-// Get the button:
-let mybutton = document.getElementById("myBtn");
+// Mobile Menu
+const menuBtn = document.querySelector('.menu-btn');
+const navLinks = document.querySelector('.nav-links');
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-//popup window
-window.addEventListener("load", function(){
-    setTimeout(
-        function open(event){
-            document.querySelector(".popup").style.display = "block";
-        },
-        1000
-    )
+menuBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    menuBtn.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
 });
 
-
-document.querySelector("#close").addEventListener("click", function(){
-    document.querySelector(".popup").style.display = "none";
+// Sticky Header
+window.addEventListener('scroll', () => {
+    const header = document.querySelector('.header');
+    header.classList.toggle('sticky', window.scrollY > 0);
 });
+
+// Smooth Scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        target.scrollIntoView({
+            behavior: 'smooth'
+        });
+        if (navLinks.classList.contains('active')) {
+            navLinks.classList.remove('active');
+            menuBtn.textContent = '☰';
+        }
+    });
+});
+
+// Form Submission
+const contactForm = document.querySelector('.contact-form');
+contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    // Add your form submission logic here
+    alert('Message sent successfully!');
+    contactForm.reset();
+});
+
+// Reveal on Scroll
+const revealElements = document.querySelectorAll('.about, .projects, .contact');
+const revealOnScroll = () => {
+    revealElements.forEach(element => {
+        const elementTop = element.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        if (elementTop < windowHeight - 100) {
+            element.style.opacity = '1';
+            element.style.transform = 'translateY(0)';
+        }
+    });
+};
+
+window.addEventListener('scroll', revealOnScroll);
+revealOnScroll();
+
