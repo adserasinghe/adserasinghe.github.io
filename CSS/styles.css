@@ -343,7 +343,7 @@ body {
 
 .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color: var(--bg-color);
     border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -357,6 +357,10 @@ body {
 
 .description {
     margin-bottom: 15px;
+}
+.description >a{
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 /* Responsive design */
@@ -422,6 +426,12 @@ body {
 
 .project-content {
     padding: 1.5rem;
+}
+
+.project-content > h4 > a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--text-color);
 }
 
 /* Contact Section */
