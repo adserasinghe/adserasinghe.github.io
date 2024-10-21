@@ -355,7 +355,7 @@ body {
 }
 
 .about-text a{
-    color: var(--text-color);
+    color: var(--primary-color);
     text-decoration: none;
 }
 
