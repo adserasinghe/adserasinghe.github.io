@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+$black: #212121;
+$white: #efefef;
+$pearl: #fff;
+$purple: #e8d1f6;
+$blue: #29639c;
+$green: #00BCD4;
+$pink: #a52a2a;
+
+.custom-cursor {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: $green;
+    transition: transform 350ms ease;
+    transform: translate(-50%, -50%) scale(.3);
+    z-index: 1000;
+  }
+  .custom-cursor--link {
+    transform: translate(-50%, -50%) scale(1.25);
+  }
