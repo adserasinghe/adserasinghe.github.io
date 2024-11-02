@@ -276,12 +276,12 @@ body {
     display: block;
     height: calc(100% - 15px);
     width: calc(100% - 15px);
-    background-color: #ffffff;
+    background-color: var(--bg-color);
     border-radius: 50%;
     display: grid;
     place-items: center;
     font-size: 35px;
-    color: #001a2e;
+    color: var(--text-color);
   }
 
 /* About Section */
