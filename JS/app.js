@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
 const themeToggle = document.querySelector('.theme-toggle');
 themeToggle.addEventListener('click', () => {
     document.body.dataset.theme = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
-    themeToggle.textContent = document.body.dataset.theme === 'dark' ? '𖤓' : '☾';
+    themeToggle.textContent = document.body.dataset.theme === 'dark' ? '🌞' : '🌙';
 });
 
 // Mobile Menu
