@@ -79,7 +79,7 @@ body {
 .loading-text {
     color: var(--text-color);
     font-family: my-font;
-    font-size: 16px;
+    font-size: 25px;
     margin-top: 20px;
     letter-spacing: 2px;
 }
