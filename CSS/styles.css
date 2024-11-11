@@ -799,7 +799,7 @@ body {
 
 .tier-name {
     font-size: 1.5rem;
-    color: var(--third-color);
+    color: var(--text-color);
     margin-bottom: 0.5rem;
 }
 
