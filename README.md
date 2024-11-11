@@ -1,5 +1,6 @@
 new releases...
-V:1.1.7.5
+(V:2.1.3.1)
+* new preloader added
 * bug fixed
 * performance improved
 * project links changed
