@@ -909,6 +909,158 @@ body {
 }
 /*end of sponsor*/
 
+/*worked brands*/
+.carousel-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo-carousel {
+    display: flex;
+    animation: scroll 25s linear infinite;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.logo-slide {
+    flex: 0 0 auto;
+    min-width: calc(100% / 5);
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.logo-slide img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.logo-slide img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #666;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-button:hover {
+    background: #f5f5f5;
+    color: #333;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.prev {
+    left: 0.5rem;
+}
+
+.next {
+    right: 0.5rem;
+}
+
+/* Gradient edges */
+.carousel-container::before,
+.carousel-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.carousel-container::before {
+    left: 0;
+    background: linear-gradient(to right, white);
+}
+
+.carousel-container::after {
+    right: 0;
+    background: linear-gradient(to left, white);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100% / 2));
+    }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .logo-slide {
+        min-width: calc(100% / 4);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .logo-slide {
+        min-width: calc(100% / 3);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo-slide {
+        min-width: calc(100% / 2);
+    }
+    .nav-button {
+        width: 35px;
+        height: 35px;
+        font-size: 1.2rem;
+    }
+    .carousel-container::before,
+    .carousel-container::after {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo-slide {
+        min-width: 100%;
+    }
+    .nav-button {
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+    }
+}
+
+/* Pause animation on hover */
+.logo-carousel:hover {
+    animation-play-state: paused;
+}
+
 /* Footer */
 .footer {
     padding: 1rem 10%;
