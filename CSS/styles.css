@@ -1158,7 +1158,7 @@ body {
     perspective: 100px;
 }
 
-.logo-carosal {
+.logo-carousal {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -1166,7 +1166,7 @@ body {
     filter: grayscale(100%);
 }
 
-.logo-carosal:hover {
+.logo-carousal:hover {
     filter: grayscale(0%);
     transform: scale(1.1);
 }
@@ -1209,7 +1209,7 @@ body {
 @media (max-width: 480px) {
     .logo-slide {
         width: 150px;
-        height: 80px;
+        height: 100px;
     }
 
     .logo-track {
@@ -1312,10 +1312,10 @@ body {
     }
 
     .nav img{
-        width: 80px;
-        height: 80px;
-        margin-top: 5px;
-        margin-bottom: -10px;
+        width: 60px;
+        height: 60px;
+        margin-top: -10px;
+        margin-bottom: -20px;
     }
     .menu-btn {
         display: block;
