@@ -1338,8 +1338,12 @@ body {
     color: var(--third-color);
 }
 
+.creator a{
+    text-decoration: none;
+}
+
 .creator span {
-    color: #ff3366;
+    color: var(--primary-color);
     animation: pulse 2s infinite;
 }
 
