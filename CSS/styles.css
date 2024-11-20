@@ -1066,7 +1066,7 @@ body {
 
 .nav-menu {
     display: flex;
-    margin-left: 235px;
+    margin-left: 275px;
     gap: 3rem;
     list-style: none;
 }
