@@ -1130,6 +1130,13 @@ body {
     color:var(--third-color);
 }
 
+.copyright > a{
+    color: var(--third-color);
+    cursor:default;
+    text-decoration: none;
+    font-family: my-font;
+}
+
 .creator {
     margin-top: 0.5rem;
     font-size: 0.8rem;
