@@ -1145,10 +1145,11 @@ body {
 
 .creator a{
     text-decoration: none;
+    color: var(--third-color);
 }
 
 .creator span {
-    color: var(--bg-color);
+    color: var(--third-color);
     animation: pulse 2s infinite;
 }
 
