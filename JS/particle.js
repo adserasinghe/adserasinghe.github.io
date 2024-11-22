@@ -52,7 +52,7 @@ function initParticles() {
     const size = Math.random() * 5 + 1;
     const x = Math.random() * canvas.width;
     const y = Math.random() * canvas.height;
-    const color = '#00000';
+    const color = '#4b0000';
     const velocity = {
       x: Math.random() * 2 - 1,
       y: Math.random() * 2 - 1

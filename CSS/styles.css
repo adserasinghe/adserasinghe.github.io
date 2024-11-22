@@ -258,6 +258,7 @@ body {
 
 .hero-content {
     max-width: 600px;
+    z-index: 2;
 }
 
 @font-face{
@@ -361,6 +362,40 @@ body {
       transform: translateY(-5px);
     }
   }
+
+  /* Particle section styles */
+  #particle-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0d1117;
+    overflow: hidden;
+  }
+  
+  /* Canvas for particles */
+  #particle-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  
+  @media (max-width: 768px) {
+    #particle-section .content h1 {
+      font-size: 2rem;
+    }
+  
+    #particle-section .content p {
+      font-size: 1rem;
+    }
+  }
+  
 
   /*top button*/
   #progress {
