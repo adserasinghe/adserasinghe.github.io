@@ -1140,6 +1140,7 @@ body {
 
 .social-item .fab {
     color: var(--third-color);
+    text-decoration: none;
 }
 
 .social-icon {
