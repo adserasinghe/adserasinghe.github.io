@@ -1199,6 +1199,12 @@ body {
 }
 
 @media (max-width: 768px) {
+    .footer-logo >img {
+        width: 40%;
+        height: 40%;
+        margin-top: -10px;
+        margin-bottom: -20px;
+    }
     .footer-content {
         flex-direction: column;
         text-align: center;
