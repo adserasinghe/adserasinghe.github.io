@@ -1246,6 +1246,7 @@ body {
 
     .social-links {
         justify-content: center;
+        margin-left: -1px;
     }
 
     .social-item .fab {
