@@ -2,12 +2,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: none;
 }
 
 @font-face{
     font-family: my-font;
     src: url("../Font/DisengagedTTF.otf");
 }
+
+/*cursor*/
+
+.custom-cursor {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #00BCD4;
+    transition: transform 350ms ease;
+    transform: translate(-50%, -50%) scale(0.3);
+    z-index: 1000;
+  }
+  
+  .custom-cursor--link {
+    transform: translate(-50%, -50%) scale(1.25);
+  }
+/*scroll bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--bg-color);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888;
+  }
+
+.loader.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -56,6 +103,9 @@ p {
 }
 
 @media (max-width: 768px) {
+    .custom-cursor{
+        visibility: none;
+    }
     h1 {
         font-size: 6rem;
     }
@@ -91,4 +141,5 @@ p {
         padding: 8px 16px;
         font-size: 0.9rem;
     }
+
 }
