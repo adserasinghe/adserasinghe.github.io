@@ -1123,7 +1123,7 @@ body {
 
 .nav-menu {
     display: flex;
-    margin-left: 290px;
+    margin-left: 315px;
     gap: 3rem;
     list-style: none;
 }
