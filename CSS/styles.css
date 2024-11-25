@@ -966,17 +966,26 @@ body {
 /*end of sponsor*/
 
 /*worked brands*/
+.brands {
+    padding: 6rem 0%;
+    background-color: var(--secondary-bg);
+}
+#brands .section-title {
+    margin-top: 35px;
+}
+
 .carousel-container {
     width: 100%;
     max-width: 1200px;
     margin: 2rem auto;
     overflow: hidden;
     position: relative;
-    padding: 20px 0;
+    padding: 0px 0;
     background: var(--bg-color);
 }
 
 .logo-track {
+    background-color: var(--secondary-bg);
     display: flex;
     width: calc(250px * 8);
     animation: scroll 25s linear infinite;
