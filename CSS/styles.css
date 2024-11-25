@@ -90,6 +90,18 @@ body {
     text-decoration: none;
 }
 
+.loading-text-s{
+    color: var(--text-color);
+    font-family: my-font;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
 .loading-dots {
     display: flex;
     gap: 8px;
