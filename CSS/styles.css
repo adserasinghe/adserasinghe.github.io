@@ -627,6 +627,10 @@ body {
     color: var(--text-color);
 }
 
+.project-content > a {
+    text-decoration: none;
+} 
+
 
 /* Contact Section */
 .contact {
