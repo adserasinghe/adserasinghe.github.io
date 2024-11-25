@@ -134,6 +134,9 @@ body {
     .loading-text {
         font-size: 14px;
     }
+    .loading-text-s {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -142,7 +145,11 @@ body {
         height: 80px;
     }
     .loading-text {
-        font-size: 12px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .loading-text-s {
+        font-size: 10px;
     }
 }
 
@@ -1238,7 +1245,7 @@ body {
     }
 
     .nav-menu {
-        font-size:20px;
+        font-size:15px;
         flex-direction: column;
         gap: 1rem;
         margin-left: 0px;
@@ -1255,7 +1262,7 @@ body {
     }
 
     .copyright {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .copyright > a{
