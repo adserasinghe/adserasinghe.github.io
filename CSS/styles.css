@@ -989,7 +989,7 @@ body {
 }
 /*end of sponsor*/
 
-/*worked brands*/
+/*worked brands
 .brands {
     padding: 6rem 0%;
     background-color: var(--secondary-bg);
@@ -1045,14 +1045,14 @@ body {
     100% {
         transform: translateX(calc(-250px * 4));
     }
-}
+}*/
 
-/* Add pause on hover */
+/* Add pause on hover
 .logo-track:hover {
     animation-play-state: paused;
-}
+}*/
 
-/* Responsive Design */
+/* Responsive Design
 @media (max-width: 768px) {
     .logo-slide {
         width: 200px;
@@ -1091,7 +1091,7 @@ body {
             transform: translateX(calc(-150px * 4));
         }
     }
-}
+}*/
 
 /* Footer */
 
