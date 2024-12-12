@@ -468,17 +468,20 @@ body {
 .about-text{
     line-height: 1.6;
     margin-bottom: 1rem;
+    animation: fadeIn 2s;
 }
 
 .about-text a{
     color: var(--primary-color);
     text-decoration: none;
+    animation: fadeIn 2s;
 }
 
 .about-img img {
     width: 100%;
     border-radius: 1rem;
     box-shadow: var(--shadow);
+    animation: fadeIn 2s;
 }
 .about-text .about-btn{
     display: inline-block;
@@ -491,6 +494,7 @@ body {
     cursor: pointer;
     text-decoration: none;
     transition: var(--transition);
+    animation: fadeIn 2s;
 }
 
 .about-btn:hover{
