@@ -1190,11 +1190,10 @@ body {
 }
 
 .footer-bottom {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 10rem;
     padding-top: 1rem;
     text-align: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .copyright {
@@ -1236,8 +1235,8 @@ body {
 
 @media (max-width: 768px) {
     .footer-logo >img {
-        width: 40%;
-        height: 40%;
+        width: 30%;
+        height: 30%;
         margin-top: -10px;
         margin-bottom: -20px;
     }
