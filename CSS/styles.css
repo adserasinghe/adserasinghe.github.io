@@ -1118,7 +1118,7 @@ body {
 .footer-logo > img{
     width: 75px;
     height: 75px;
-    margin-top: -10px;
+    margin-top: 10px;
     margin-bottom: -20px;
 }
 
@@ -1169,6 +1169,7 @@ body {
 .social-links {
     display: flex;
     gap: 1.5rem;
+    margin-top: 35px;
 }
 
 .social-item .fab {
@@ -1190,6 +1191,7 @@ body {
 
 .footer-bottom {
     margin-top: 2rem;
+    margin-left: 10rem;
     padding-top: 1rem;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -1243,6 +1245,10 @@ body {
         flex-direction: column;
         text-align: center;
     }
+    .footer-bottom{
+        margin-left: 0px;
+        margin-top: 1rem;
+    }
 
     .nav-menu {
         font-size:15px;
@@ -1262,7 +1268,7 @@ body {
     }
 
     .copyright {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .copyright > a{
