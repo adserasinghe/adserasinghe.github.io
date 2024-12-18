@@ -386,7 +386,7 @@ body {
 
     .hire-buttons {
         justify-content: center;
-        margin: 0px 0px 0px 5px;
+        margin: 0px 0px 0px 0px;
     }
     .btn {
         font-size: 1rem;
