@@ -353,10 +353,18 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .hero {
+        padding: 0 5%;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .content-container {
         padding: 0 0%;
         flex-direction: column-reverse;
-        margin: 130px 0px 30px 0px;
+        margin: 130px 0px 130px 0px;
     }
 
     .image-content{
@@ -1391,14 +1399,6 @@ body {
     }
     .menu-btn {
         display: block;
-    }
-
-    .hero {
-        padding: 0 0%;
-        text-align: center;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     .section-title {
