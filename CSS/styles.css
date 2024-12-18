@@ -10,6 +10,7 @@
     --third-color:white;
     --fourth-color:#4b0000;
     --card-bg: #ffffff;
+    --skill-color: black;
     --border-color: #eaeaea;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     --transition: all 0.3s ease;
@@ -27,6 +28,7 @@
     --fourth-color:#fffffff;
     --secondary-bg: #2d2d2d;
     --card-bg: #333333;
+    --skill-color: white;
     --border-color: #404040;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -835,163 +837,94 @@ body {
 }
 
 
-/*sponsor section*/
-.support-container {
-    /*max-width: 1200px;*/
+/*skills section*/
+.container-skills {
+    width: 90%;
+    max-width: 1100px;
     margin: 0 auto;
-    /*padding: 2rem;*/
-}
-
-.intro {
+    padding: 20px;
     text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-
-.intro p {
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 1.1rem;
-    color: var(--text-color);
-}
-
-.sponsorship-tiers {
-    display: flex;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    margin-bottom: 3rem;
-}
-
-.tier {
-    background: var(--secondary-bg);
-    border-radius: 15px;
-    padding: 4rem;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
-}
-
-.tier:hover {
-    transform: translateY(-10px);
-}
-
-.tier-header {
-    margin-bottom: 1.5rem;
-}
-
-.tier-name {
-    font-size: 1.5rem;
-    color: var(--text-color);
-    margin-bottom: 0.5rem;
-}
-
-.tier-price {
-    font-size: 2rem;
-    color: #3498db;
+  }
+  
+  /* Section Title */
+  .skills h1 {
+    font-size: 2.5rem;
+    font-family: my-font;
     font-weight: bold;
-}
-
-.tier-benefits {
-    list-style: none;
-    margin-bottom: 2rem;
-}
-
-.tier-benefits li {
-    margin-bottom: 0.8rem;
-    padding-left: 1.5rem;
-    position: relative;
-}
-
-.tier-benefits li:before {
-    content: "\f00c";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    color: #27ae60;
-    position: absolute;
-    left: 0;
-}
-
-.support{
-    padding: 6rem 10%;
-    margin-bottom: 2rem;
-    color: var(--secondary-bg);
-}
-
-.sponsor-btn {
-    display: inline-block;
-    padding: 1rem 2rem;
-    background-color: #3498db;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.sponsor-btn:hover {
-    background-color: #000000;
-}
-
-.current-sponsors {
-    text-align: center;
-    margin-top: 4rem;
-}
-
-.sponsors-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-}
-
-.sponsor-logo {
-    background: white;
-    padding: 1rem;
-    border-radius: 8px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    color:var(--text-color);
+  }
+  
+  .skills p {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  /* Skills Grid */
+  .skills-grid {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 150px;
-}
-
-.sponsor-logo img {
-    max-width: 80%;
-    max-height: 80%;
-}
-
-.contact-section {
-    background-color: #2c3e50;
-    color: white;
-    padding: 4rem 2rem;
-    text-align: center;
-    margin-top: 4rem;
-}
-
-.contact-section h2 {
-    margin-bottom: 1.5rem;
-}
-
-
-.contact-info {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
     flex-wrap: wrap;
-}
-
-.contact-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    gap: 0.5rem;
-}
-
-.contact-item a{
-    color: white;
-    text-decoration: none;
-}
-/*end of sponsor*/
+    gap: 20px;
+  }
+  
+  .skill {
+    flex: 1 1 calc(50% - 20px);
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .skill-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .skill-bar {
+    width: 100%;
+    background: var(--skill-color);
+    height: 15px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  
+  .progress {
+    height: 100%;
+    background: var(--primary-color); /* Orange Color */
+    color: var(--third-color);
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 3px;
+    padding-right: 5px;
+    line-height: 10px;
+    transition: all 0.5s ease;
+  }
+  
+  /* Progress Bar Animation */
+  @keyframes fillBar {
+    from {
+      width: 1;
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .skill {
+      flex: 1 1 100%;
+    }
+  
+    .skills h1 {
+      font-size: 2rem;
+    }
+  
+    .skills p {
+      font-size: 1rem;
+    }
+  }
+/*end of skills*/
 
 /*worked brands
 .brands {
