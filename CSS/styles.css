@@ -355,7 +355,7 @@ body {
 @media (max-width: 768px) {
     .content-container {
         flex-direction: column-reverse;
-        margin: 10px 0px 30px 0px;
+        margin: 50px 0px 30px 0px;
     }
 
     .image-content{
