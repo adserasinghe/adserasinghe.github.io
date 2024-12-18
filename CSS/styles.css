@@ -356,12 +356,12 @@ body {
     .content-container {
         padding: 0 0%;
         flex-direction: column-reverse;
-        margin: 50px 0px 30px 0px;
+        margin: 130px 0px 30px 0px;
     }
 
     .image-content{
         max-width: 80%;
-        margin: -45px 0px -90px -60px;
+        margin: -115px 0px -90px -60px;
     }
 
     .text-content {
