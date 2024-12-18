@@ -327,14 +327,25 @@ body {
 }
 
 /* Hire Buttons */
-.hire-buttons {
-    display: flex;
-    gap: 10px;
+.h-btn{
+    display: inline-block;
     margin-top: 10px;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: var(--transition);
+    animation: fadeIn 2s;
 }
 
-.btn:hover {
-    opacity: 0.8;
+.h-btn:hover {
+    background-color: var(--btn-color);
+    color: var(--bg-color);
+    opacity: 0.9;
+    transform: translateY(-2px);
 }
 
 /* Image Section */
@@ -395,7 +406,7 @@ body {
         justify-content: center;
         margin: 0px 0px 0px 0px;
     }
-    .btn {
+    .h-btn {
         font-size: 1rem;
     }
     .scroll-down {
@@ -420,27 +431,6 @@ body {
 .scroll-down {
     margin-bottom: -20px;
 }
-}
-
-  
-
-.btn {
-    display: inline-block;
-    padding: 1rem 2rem;
-    background-color: var(--primary-color);
-    color: var(--text-color);
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    text-decoration: none;
-    transition: var(--transition);
-}
-
-.btn:hover {
-    background-color: var(--btn-color);
-    color: var(--bg-color);
-    opacity: 0.9;
-    transform: translateY(-2px);
 }
 
 .scroll-down {
