@@ -33,6 +33,11 @@
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
+@font-face {
+    font-family: my-font;
+    src: url(../Font/DisengagedTTF.otf);
+  }
+
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -267,44 +272,136 @@ body {
 }
 
 /* Hero Section */
-.hero {
-    min-height: 100vh;
+/* Main Section */
+.intro-section {
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 0 10%;
-    /*background-color: var(--bg-color);*/
-    background-image: url("../images/bg.jpg");
-    background-position: center;
-    background-size: cover;
+    height: 100vh;
+    padding: 20px;
 }
 
-.hero-content {
-    max-width: 600px;
-    z-index: 2;
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color:var(--bg-color);
+    padding: 80px 0px 85px 30px;
+    border-radius: 20px;
 }
 
-@font-face{
+/* Text Section */
+.text-content {
+    flex: 1;
+    padding-right: 20px;
+    text-align: justify;
+    margin: 60px 10px 0px 70px;
+}
+
+.greeting {
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.h-name {
+    font-size: 2.5rem;
     font-family: my-font;
-    src: url("../Font/DisengagedTTF.otf");
+    text-align: left;
+    font-weight: 700;
+    margin: -10px 0;
+    color: var(--text-color);
 }
 
-.hero h1 {
-    font-size: 3.5rem;
-    line-height: 1.2;
-    font-family: my-font;
-    margin-bottom: 1rem;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 0.5s ease forwards;
-}
-
-.hero p {
+.role {
     font-size: 1.2rem;
-    margin-bottom: 2rem;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 0.5s ease 0.2s forwards;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0px;
 }
+
+.h-description {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+/* Hire Buttons */
+.hire-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Image Section */
+.image-content {
+    flex: 1;
+    margin:-2px 0px -60px 0px ;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin: 95px -60px 120px -100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 10px 0px 30px 0px;
+    }
+
+    .text-content {
+        padding: 0;
+        margin: -30px 20px 0px 20px;
+    }
+
+    .name {
+        font-size: 2.5rem;
+    }
+
+    .role {
+        font-size: 1rem;
+    }
+
+    .hire-buttons {
+        justify-content: center;
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .name {
+        font-size: 2rem;
+    }
+
+    .role, .description {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        margin: 10px 0px 0px -30px;
+    }
+
+.scroll-down {
+    margin-bottom: -20px;
+}
+}
+
+  
 
 .btn {
     display: inline-block;
