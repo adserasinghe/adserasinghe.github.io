@@ -389,6 +389,14 @@ body {
         margin: 0px 0px 0px 0px;
     }
 
+    .image-content img {
+        max-width: 60%;
+        height: auto;
+        border-radius: 50%;
+        margin: 95px -60px 120px 0px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
     .h-name {
         font-size: 1.5rem;
         text-align: center;
