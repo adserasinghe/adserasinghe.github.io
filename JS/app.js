@@ -66,6 +66,7 @@ const revealOnScroll = () => {
 window.addEventListener('scroll', revealOnScroll);
 revealOnScroll();
 
+// Copy URL in footer
 function copyCurrentURL() {
     const url = window.location.href;
     navigator.clipboard.writeText(url).then(() => {
